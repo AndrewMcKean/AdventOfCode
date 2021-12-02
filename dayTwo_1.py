@@ -5,14 +5,15 @@ depth = 0
 
 for i in range(len(data)):
     currInstr = str.split(data[i])
+    value = int(currInstr[1])
 
     if currInstr[0] == 'forward':
-        horizontalPosition += int(currInstr[1])
+        horizontalPosition += value
 
     elif currInstr[0] == 'up':
-        depth -= int(currInstr[1])
+        depth -= value
     else:
-        depth +=  int(currInstr[1])
+        depth += value
 
 
 print(horizontalPosition * depth)

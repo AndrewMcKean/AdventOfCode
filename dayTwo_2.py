@@ -6,16 +6,16 @@ aim = 0
 
 for i in range(len(data)):
     currInstr = str.split(data[i])
+    value = int(currInstr[1])
 
     if currInstr[0] == 'forward':
-        horizontalPosition += int(currInstr[1])
-        depth += (aim * int(currInstr[1]))
+        horizontalPosition += value
+        depth += (aim * value)
 
     elif currInstr[0] == 'up':
-        aim -= int(currInstr[1])
+        aim -= value
     
     elif currInstr[0] == 'down':
-        aim += int(currInstr[1])
-
+        aim += value
 
 print(horizontalPosition * depth)
