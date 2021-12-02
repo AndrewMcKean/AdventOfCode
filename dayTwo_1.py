@@ -23,4 +23,5 @@ print(horizontalPosition * depth)
 Correct!
 
 Not sure if there's a more elegant way to do it rather than if statements.
+
 '''
