@@ -66,3 +66,12 @@ scrubberRating = int(c02Data[0], 2)
 lifeSupportRating = oxygenRating * scrubberRating
 
 print(lifeSupportRating)
+
+'''
+Done. Finally.
+
+Spent way too long trying to get it to work with list.remove() before I realised this would 
+change the indexing in place. It then essentially skipped a list item every time it removed one.
+Had a google and came across list comprehension. I haven't used this very much but glad it worked
+out well in the end.
+'''
