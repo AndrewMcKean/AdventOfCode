@@ -40,3 +40,9 @@ for i in range(80, 256):
     fishDict.update({f"day{i}" : value})
 
 print(fishDict['day255'])
+
+'''
+Woo! That gives me a little boost after struggling with day 5 so much.
+I wonder if there is an easier way to detect the number sequence than doing
+it manually, though it wasn't too tricky a sequence to spot. 
+'''
