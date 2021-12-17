@@ -18,8 +18,6 @@ for i in range(80):
         else:
             fishPopulation[y] -= 1
     print(i)
-            
-
 
 
 print(len(fishPopulation))
